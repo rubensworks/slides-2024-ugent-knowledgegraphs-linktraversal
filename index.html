@@ -252,7 +252,7 @@
 }</pre>
         <h3>Query process:</h3>
 		<ol>
-			<li>Start from Alice's profile</li>
+			<li>Start from Alice's address book</li>
             <li>Follow links to profiles of Bob and Carol</li>
             <li>Query over union of all profiles</li>
             <li>Find query results: <code>[ { "name": "Bob" }, { "name": "Carol" } ]</code></li>
@@ -547,10 +547,6 @@
                 <h3>System hogging</h3>
                 <span class="indent">Malicious publishers could link to documents that are expensive to process</span><br /><br />
                 <span class="indent">Example: huge files, documents with syntax errors, ...</span>
-			</li>
-			<li>
-                <h3>Session Hijacking</h3>
-                <span class="indent">Sessions for authentication may be leaked to other domains</span>
 			</li>
 		</ul>
     </section>
